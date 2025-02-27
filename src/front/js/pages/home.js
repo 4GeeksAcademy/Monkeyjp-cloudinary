@@ -14,7 +14,7 @@ export const Home = () => {
 			console.log(e.target.files);
 			setFile(e.target.files[0])
 		}
-		
+		 
 	}
 	const sendFile = async () => {
 		if (!file) {

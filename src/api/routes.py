@@ -10,7 +10,7 @@ import os
 #Cloudinary
 import cloudinary
 import cloudinary.uploader
-from cloudinary.utils import cloudinary_url
+from cloudinary.utils import cloudinary_url 
 
 cloudinary.config( 
     cloud_name = os.getenv('CLOUD_NAME'),
